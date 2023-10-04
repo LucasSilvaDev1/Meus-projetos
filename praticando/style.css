@@ -1,0 +1,60 @@
+/* cores 
+    1 #01040D
+    2 #10232A
+    3 #910721
+    4 #FC001B
+    5 #FEE0BC
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Sriracha&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: #01040D;
+    color: #FEE0BC;
+    font-family: 'Noto Sans';
+}
+
+nav {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.form {
+    
+    background: #10232A;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    box-shadow: 3px 5px 19px #254550;
+}
+
+.form input {
+    border-radius: 10px;
+    background-color: #10232A;
+    border: 2px solid #FC001B;
+    padding: 3px;
+    color: white;
+}
+
+@media  screen and (max-width:600px) {
+    nav{
+        flex-direction: column;
+    }
+
+    .form 
+}
