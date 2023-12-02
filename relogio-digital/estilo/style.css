@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}/*rgb(34, 34, 60)*/
+
+body{
+    text-align: center;
+    background: linear-gradient( 90deg, rgb(34, 34, 60), rgb(56, 56, 175));
+    color: white;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto{
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 10px rgba(245, 245, 245, 0.338);
+}
+
+.relogio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 32, 32);
+    width: 500px;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 6px 15px rgba(0, 0, 0, 0.596);
+}
+
+.numero{
+    width: 90px;
+    margin: 20px;
+    font-size: 2.5em;
+    background:radial-gradient( rgba(39, 52, 52, 0.256) ,rgb(24, 32, 32))  ;
+    padding: 5px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.521);
+}
+
+.nome{
+    position: relative;
+    top: -20px;
+}
+
+

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    background-color: #f1f1f1;
+    height: 100vh;
+}
+
+.container h1 {
+    color: #175cff;
+}
+
+.timer{
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+    color: #333;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: #172953;
+    min-width: 90px;
+}
+
+.separator{
+    padding: 0 10px;
+    color: #525763;
+}
+
+#miliseconds{
+    font-size: 30px;
+    color: #525763;
+}
+
+.bottons{
+    flex-direction: row;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.btn{
+    padding: 10px 18px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+#startBtn {
+    background-color: #175cff;
+    color: #fff;
+}
+
+#pauseBtn,#resumeBtn{
+    display: none;
+}
