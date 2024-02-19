@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(#0D0D0D,#32088C,#550CF2);
+}
+
+header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 10px white;
+}
+
+input{
+    padding: 4px 8px;
+    border-radius: 7px 0px 0px 7px;
+    text-decoration: none;
+    border-style: none;
+    box-shadow: 2px 7px 15px rgba(0, 0, 0, 0.26);
+}
+
+button {
+    padding: 4px 8px;
+    border-radius: 0px 7px 7px 0px;
+    border-style: none;
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+
+.tarefas{
+    margin: auto;
+    background-color:#550CF2;
+    border-radius: 20px;
+    padding: 20px;
+    width: 450px;
+    height: 500px;
+    overflow: auto;
+    border-style: groove;
+}
+
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-style: groove;
+    width: 350px;
+    height: 50px;
+    
+}
+
+.item:hover{
+    transition:linear 0.1s;
+    width: 360px;
+    height: 55px;
+    
+    
+}
+
+.item-clicado{
+    background-color: rgba(0, 128, 0, 0.164);
+}
+
+.item-clicado .item-nome{
+    text-decoration: line-through;
+}
+
+.item-icone,.item-nome,.item-botao{
+    width: 50px;
+    height: 30px;
+    margin: 20px;
+}
+
+.item-botao{
+    margin: 0;
+    margin-left: 90px;
+}
