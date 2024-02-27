@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+*{ 
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/pexels-taras-chuiko-15495305.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
