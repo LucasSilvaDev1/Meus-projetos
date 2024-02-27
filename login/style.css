@@ -7,4 +7,6 @@ body{
     background-image: url(img/pexels-taras-chuiko-15495305.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
