@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg,#212226,#3B3c40);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Open Sans' sans-serif;
+}
+
+
+
+.btn-voltar, a{
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+
+span{
+    
+}
