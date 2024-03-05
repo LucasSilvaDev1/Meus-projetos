@@ -11,10 +11,59 @@ body{
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    font-family: 'Open Sans' sans-serif;
+    font-family: 'Open Sans',sans-serif  ;
+}
+
+h2{
+    color: white;
+    font-weight: 800;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    text-shadow: 1px 0px 3px white;
 }
 
 
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.inputTarefa{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 7px 0px 0px 7px;
+    border-style: none;
+    border-color:white;
+    background-color: transparent;
+}
+
+section > button{
+    border-radius: 0px 7px 7px 0px;
+    padding: 10px;
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    color: rgb(91, 92, 93);
+}
+
+section > button:hover{
+    background-color: rgba(255, 255, 255, 0.082);
+    color: white;
+}
+
+.lista{
+    width: 400px;
+    height: 400px;
+    background-color: #3B3c40;
+    border-radius: 20px;
+}
+
+.tarefa{
+    margin: 10px;
+}
 
 .btn-voltar, a{
     margin-top: 10px;
@@ -25,6 +74,13 @@ body{
     padding: 6px;
 }
 
-span{
-    
+.btn-voltar:hover, a:hover{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+}
+
+.voltar:hover{
+    position: relative;
+    left: +10px;
 }
