@@ -12,6 +12,10 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: 'Open Sans',sans-serif  ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: ease-in 0.7s;
 }
 
 h2{
@@ -28,8 +32,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
-    
+    margin-top: 20px;
 }
 
 .inputTarefa{
@@ -39,6 +42,7 @@ header{
     border-style: none;
     border-color:white;
     background-color: transparent;
+    color: white;
 }
 
 section > button{
@@ -57,12 +61,54 @@ section > button:hover{
 .lista{
     width: 400px;
     height: 400px;
-    background-color: #3B3c40;
+    background-color: #bfbbb097;
     border-radius: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .tarefa{
-    margin: 10px;
+    display:inline-flex;
+    justify-content: space-between;
+    margin: 15px 15px 0px 15px;
+    width: 360px;
+    height: 30px;
+    color: white;
+    background-color: #3B3c40;
+    border-radius: 20px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.671);
+}
+
+.item-nome{
+    text-align: center;
+}
+
+
+
+.item-icone{
+    border-right: 1px solid #bfbbb097;
+    border-radius: 20px 0px 0px 20px;
+    width: 55px;
+    padding: 0px 15px;
+    
+}
+
+.item-icone:hover{
+    cursor: pointer;
+    background-color: rgba(52, 62, 52, 0.397);
+}
+
+.item-botao{
+    
+    border-radius:0px 20px 20px 0px ;
+    width: 55px;
+    padding: 0px 15px;
+    background-color: rgba(255, 62, 62, 0.452);
+}
+
+.item-botao:hover{
+    cursor: pointer;
+    background-color: rgba(164, 4, 4, 0.452);
 }
 
 .btn-voltar, a{
@@ -74,13 +120,12 @@ section > button:hover{
     padding: 6px;
 }
 
-.btn-voltar:hover, a:hover{
-    background-color: aliceblue;
+.btn-voltar:hover, a:active{
+    background-color:  #bfbbb097;
     color: black;
-    border-radius: 20px;
+    border-radius: 20px; 
 }
 
-.voltar:hover{
-    position: relative;
-    left: +10px;
+.itemClicado{
+    background-color: rgba(71, 136, 71, 0.397);
 }

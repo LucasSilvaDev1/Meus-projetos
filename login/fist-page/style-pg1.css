@@ -61,7 +61,7 @@ button{
     margin: auto;
     margin-top: 60px;
     background-color: #bfbbb097;
-    transition: ease-out 0.4s;
+    transition: ease-in 0.7s;
     width: 345px;
     height: 210px;
     padding: 20px;
@@ -88,7 +88,3 @@ button{
     grid-row: 2;
 }
 
-.caixa_login:hover{
-    width: 360px;
-    height: 225px;
-}
