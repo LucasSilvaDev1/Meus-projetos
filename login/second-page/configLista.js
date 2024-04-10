@@ -1,7 +1,7 @@
 let valorInput = document.getElementById("tarefa");
 let lista = document.getElementById("lista");
 let contador = 0;
-let btn = document.getElementById('btn-add')
+let btn = document.getElementById("btn-add");
 
 function AddTarefa() {
   let tarefa = valorInput.value;
@@ -51,9 +51,11 @@ function ItemClicado(id) {
   }
 }
 
-valorInput.addEventListener("keyup", function (event){
-    if (event.keyCode === 13){
-        event.preventDefault();
-        btn.click();
-    }
-})
+
+
+valorInput.addEventListener("keyup", function (event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    btn.click();
+  }
+});
